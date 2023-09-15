@@ -8,6 +8,11 @@
 
     <div class="page-content">
         <x-frontend.layouts.partials.slider />
+        
+        
+        <x-frontend.layouts.partials.bloodgroup />
+
+
         <x-frontend.layouts.partials.carouselCard />
 
         <div class="content-wrapper">

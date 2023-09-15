@@ -1,5 +1,8 @@
+
+
+<div class="recentdonar">
 <div class="bloodgroup my-5 text-red text-center">
-    <h3>Blood Group</h3>
+    <h3>Recent Blood Donar</h3>
 </div>
 
 <div id="carouselIMG" class="carousel slide container" data-bs-ride="carousel">
@@ -101,3 +104,9 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
+</div>
+
+
+
+
+

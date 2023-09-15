@@ -1,4 +1,6 @@
-<div class="footer-area">
+
+
+<div class="footer-area bg-dark">
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-3">
@@ -22,7 +24,7 @@
                 </div>
             </div>
             <div class="col-md-3 col-sm-3">
-                <div class="footer-item footer-service">
+                <div class="footer-item footer-service address">
                     <h2>Contact</h2>
                     <ul>
                         <li>Address: ABC Steet, NewYork.</li>
@@ -37,11 +39,12 @@
                     <h2>Social Media</h2>
                     <div class="footer-social-link">
                         <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fas fa-linkedin"></i></a></li>
                             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                             <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>
