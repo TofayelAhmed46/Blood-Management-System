@@ -39,20 +39,20 @@
                     <h2>Social Media</h2>
                     <div class="footer-social-link">
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fas fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            {{-- <li><a href="#"><i class="fa-brands fa-facebook-f" style="color: #c4bebe"></i></a></li> --}}
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-google-plus"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
+            
         </div>
         <div class="row">
             <div class="copyright">
-                <p>Copyright 2022. All Rights Reserved.</p>
+                <p>&#64;Copyright 2023. All Rights Reserved &#64;Return-0.&#64;</p>
             </div>
         </div>
     </div>

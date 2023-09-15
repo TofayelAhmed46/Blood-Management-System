@@ -49,15 +49,16 @@
     text-align: center;
     width: 24%;
     padding: 40px;
+    FONT-SIZE: 30px;
 }
 .row .bloodgroup:last-child{
     margin-right: 0px;
 }
 
 .row .bloodgroup:hover{
-    transition-duration: .5s;
-    color: white;
-    background-color: rgba(189, 149, 149, 0.856);
+  background-color: rgba(136, 59, 59, 0);
+  color: #D8203B;
+  transition-duration: 1s;
 }
 .recentdonar{
     padding-top: 1px;
@@ -87,19 +88,45 @@
     text-wrap: 3px;
   }
 
+  .fmain li a:hover{
+    color: #D8203B;
+  }
+
   .footer-area{
-    color: white;
     margin-top: 2px;
     padding-top: 10px;
     text-decoration: none;
+    color: rgb(193, 197, 188);
+
+  }
+
+  .footer-area:first-child{
+    text-align: center;
   }
 
   .address ul li, .footer-social-link ul li{
     list-style: none;
+    text-align: justify;
   }
-
+  .address ul li:hover{
+    color: #D8203B;
+  }
   .footer-social-link ul li{
+    margin-right: 15px;
     display: inline;
-    background-color: red;
+    /* background-color: red; */
     font-size: 20px;
   }
+
+  /* .footer-social-link ul li:hover{
+   color: white;
+   background-color: #000;
+  } */
+
+  .footer-social-link ul li a i{
+    color: rgb(193, 197, 188);
+   }
+  .footer-social-link ul li a i:hover{
+    color: #D8203B;
+    padding: 2px;
+   }

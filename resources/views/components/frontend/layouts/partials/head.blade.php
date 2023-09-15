@@ -9,9 +9,10 @@
     <!-- Global stylesheets -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
     <link href="{{asset('ui/frontend')}}/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="{{asset('ui/frontend')}}/assets/css/fontawesome.min.css" rel="stylesheet" type="text/css">
     <link href="{{asset('ui/frontend')}}/assets/css/fontawesomeAll.min.css" rel="stylesheet" type="text/css">
     <link href="{{asset('ui/frontend')}}/assets/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css">
+    <link href="{{asset('ui/frontend')}}/assets/css/fontawesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="{{asset('ui/frontend')}}/assets/css/style.css" rel="stylesheet" type="text/css">
     <!-- /global JavaScript -->
 

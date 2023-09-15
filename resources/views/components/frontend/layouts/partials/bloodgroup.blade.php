@@ -8,30 +8,30 @@
 <div class="container">
 <div class="row bdgroup">
     <div class=" bloodgroup col-sm-3">
-        A+
+        AB+
+    </div>
+    <div class=" bloodgroup col-sm-3">
+        AB-
     </div>
     <div class=" bloodgroup col-sm-3">
         A+
     </div>
     <div class=" bloodgroup col-sm-3">
-        A+
-    </div>
-    <div class=" bloodgroup col-sm-3">
-        A+
+        A-
     </div>
 </div>
 <div class="row">
     <div class=" bloodgroup col-sm-3">
-        A+
+        B+
     </div>
     <div class=" bloodgroup col-sm-3">
-        A+
+       B-
     </div>
     <div class=" bloodgroup col-sm-3">
-        A+
+        O+
     </div>
     <div class=" bloodgroup col-sm-3">
-        A+
+        O-
     </div>
 </div>
 </div>
