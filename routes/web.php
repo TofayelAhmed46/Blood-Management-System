@@ -16,7 +16,7 @@ use App\Http\Controllers\LoginController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 
 Route::get('/login',[LoginController::class,'index'])->name('login');
 Route::get('/signup',[LoginController::class,'signup'])->name('signup');

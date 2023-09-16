@@ -31,6 +31,12 @@
 
 .nav-link{
  color:black;
+ margin-right: 20px;
+ 
+}
+.nav-link:hover{
+ color:white;
+ background-color: red;
  
 }
 

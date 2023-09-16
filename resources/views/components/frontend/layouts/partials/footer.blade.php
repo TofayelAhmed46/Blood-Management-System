@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-3">
                 <div class="footer-item footer-service">
-                    <h2>Latest News</h2>
+                    <h3>Latest News</h3>
                     <ul class="fmain">
                         <li><a href="">Lorem ipsum dolor sit amet</a></li>
                         <li><a href="">An labores explicari qui eu</a></li>
@@ -15,7 +15,7 @@
             </div>
             <div class="col-md-3 col-sm-3">
                 <div class="footer-item footer-service">
-                    <h2>Popular News</h2>
+                    <h3>Popular News</h3>
                     <ul class="fmain">
                         <li><a href="">Tollit cetero cu usu etiam evertitur</a></li>
                         <li><a href="">Lorem ipsum dolor sit amet</a></li>
@@ -25,7 +25,7 @@
             </div>
             <div class="col-md-3 col-sm-3">
                 <div class="footer-item footer-service address">
-                    <h2>Contact</h2>
+                    <h3>Contact</h3>
                     <ul>
                         <li>Address: ABC Steet, NewYork.</li>
                         <li>Email: info@yourwebsite.com</li>
@@ -36,7 +36,7 @@
             </div>
             <div class="col-md-3 col-sm-3">
                 <div class="footer-item footer-service">
-                    <h2>Social Media</h2>
+                    <h3>Social Media</h3>
                     <div class="footer-social-link">
                         <ul>
                             {{-- <li><a href="#"><i class="fa-brands fa-facebook-f" style="color: #c4bebe"></i></a></li> --}}

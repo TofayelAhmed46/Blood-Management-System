@@ -51,7 +51,7 @@
 
                                 <div class="col">
                                     <p style="text-align: center">If you are registered, log in <a
-                                            href="">here.</a></p>
+                                            href="{{route('login')}}">here.</a></p>
                                 </div>
 
                     </form>

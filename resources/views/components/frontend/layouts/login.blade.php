@@ -25,7 +25,7 @@
                         </div>
 
                         <div class="col">
-                            <p style="text-align: center">If you are not registered, register <a href="">here.</a></p>
+                            <p style="text-align: center">If you are not registered, register <a href="{{route('signup')}}">here.</a></p>
                         </div>
                     
                     </form>
