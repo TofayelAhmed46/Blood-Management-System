@@ -1,14 +1,14 @@
 
 
 <div class="recentdonar">
-<div class="bloodgroup my-5 text-red text-center">
+<div class="my-2 text-red text-center">
     <h3>Recent Blood Donar</h3>
 </div>
 
 <div id="carouselIMG" class="carousel slide container" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active ">
-            <div class="card-group">
+    <div class="carousel-inner" >
+        <div class="carousel-item active" data-bs-interval="10000" >
+            <div class="card-group cardgroup">
                 <div class="card cardMargin">
                   <img src="{{ asset('ui/frontend') }}/assets/image/donar/donar1.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -35,8 +35,8 @@
                 </div>
               </div>
         </div>
-        <div class="carousel-item">
-            <div class="card-group">
+        <div class="carousel-item" data-bs-interval="10000">
+            <div class="card-group cardgroup">
                 <div class="card cardMargin">
                   <img src="{{ asset('ui/frontend') }}/assets/image/donar/donar4.webp" class="card-img-top" alt="...">
                   <div class="card-body">
@@ -63,8 +63,8 @@
                 </div>
               </div>
         </div>
-        <div class="carousel-item">
-            <div class="card-group">
+        <div class="carousel-item" data-bs-interval="10000">
+            <div class="card-group cardgroup">
                 <div class="card cardMargin">
                   <img src="{{ asset('ui/frontend') }}/assets/image/donar/donar8.jpg" class="card-img-top" alt="...">
                   <div class="card-body">

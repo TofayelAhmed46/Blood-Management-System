@@ -1,7 +1,7 @@
 
 
 <div class="bloodSection">
-<div class="bloodgroup my-5 text-red text-center">
+<div class=" my-2 text-red text-center">
     <h3>Blood Group</h3>
 </div>
 

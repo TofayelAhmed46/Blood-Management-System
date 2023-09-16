@@ -47,6 +47,7 @@
     margin-right: 10px;
     margin-bottom: 20px;
     text-align: center;
+    border-radius: 7%;
     width: 24%;
     padding: 40px;
     FONT-SIZE: 30px;
@@ -55,9 +56,15 @@
     margin-right: 0px;
 }
 
-.row .bloodgroup:hover{
+/* .bloodgroup:hover{
   background-color: rgba(136, 59, 59, 0);
   color: #D8203B;
+  transition-duration: 1s;
+} */
+
+.bloodgroup:hover{
+  background-color: #532654;
+  color: white;
   transition-duration: 1s;
 }
 .recentdonar{
@@ -129,4 +136,23 @@
   .footer-social-link ul li a i:hover{
     color: #D8203B;
     padding: 2px;
+   }
+
+   /* .cardgroup{
+    padding: 4px;
+    margin-bottom: 20px;
+   }  */
+
+   .cardgroup {
+    padding: 66px;
+    margin-bottom: 0px;
+    padding-top: 2px;
+   }
+
+   .cardMargin{
+    box-shadow: 15px 15px 30px #6d6a6a;
+   }
+
+   .footer-area{
+    margin-top: 10px;
    }

@@ -1,18 +1,62 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<x-frontend.layouts.partials.head />
 
-
-
-<x-frontend.layouts.partials.main>
-
-        <x-frontend.layouts.partials.slider />
-
-
-        <x-frontend.layouts.partials.bloodgroup />
+<body>
+    <div class="container-fluid">
+    <x-frontend.layouts.partials.navber />
         
         
-        <x-frontend.layouts.partials.carouselCard />
 
-</x-frontend.layouts.partials.main>
+        <div class="content-wrapper">
+            <div class="content">
+
+                {{ $slot }}
+
+            </div>
+        
+            <x-frontend.layouts.partials.footer/>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
