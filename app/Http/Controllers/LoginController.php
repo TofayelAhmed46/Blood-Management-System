@@ -18,8 +18,13 @@ class LoginController extends Controller
     public function signup()
     {
 
-    return  view('components.frontend.layouts.signup');
-}
+        return view('components.frontend.layouts.signup');
+    }
+    public function donar()
+    {
+
+        return view('components.frontend.layouts.donar');
+    }
 
     public function create()
     {

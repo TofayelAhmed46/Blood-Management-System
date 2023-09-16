@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 Route::get('/login',[LoginController::class,'index'])->name('login');
 Route::get('/signup',[LoginController::class,'signup'])->name('signup');
+Route::get('/donar',[LoginController::class,'donar'])->name('donarview');
