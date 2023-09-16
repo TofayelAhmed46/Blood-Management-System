@@ -72,7 +72,57 @@
     padding-bottom: 2px;
     background-color: antiquewhite;
 }
+.social-link {
+  text-align: center;
+  
+}
+ .social-link ul li{
+  list-style: none;
+  text-align: justify;
+}
 
+.social-link ul li{
+  margin-right: 15px;
+  display: inline;
+  /* background-color: red; */
+  font-size: 20px;
+}
+
+/* .footer-social-link ul li:hover{
+ color: white;
+ background-color: #000;
+} */
+
+.social-link ul li a {
+  font-size: 15px;
+  border: 1px solid #fff;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+  background-color: #D8203B;;
+}
+.social-link ul li a:hover{
+  background-color: black;
+  border:1px solid #D8203B;
+ }
+ 
+.formdesign{
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #d8c7e11c;
+  box-shadow: 5px 5px 5px 5px #8f7f7f;
+}
+.formdesign .col{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.formdesign .col label{
+  text-align: center;
+  left: 30px;
+}
 .fmain li{
     list-style-type: none;
     position: relative;
@@ -130,12 +180,18 @@
    background-color: #000;
   } */
 
-  .footer-social-link ul li a i{
-    color: rgb(193, 197, 188);
-   }
-  .footer-social-link ul li a i:hover{
-    color: #D8203B;
-    padding: 2px;
+  .footer-social-link ul li a {
+    font-size: 15px;
+    border: 1px solid #fff;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    background-color: #D8203B;;
+  }
+  .footer-social-link ul li a:hover{
+    background-color: black;
+    border:1px solid #D8203B;
    }
 
    /* .cardgroup{
