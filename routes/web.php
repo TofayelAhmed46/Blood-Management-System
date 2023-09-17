@@ -3,8 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RoleController;
-use App\Http\Controllers\looseController;
-use App\Http\Controllers\TryController;
 
 
 
@@ -18,6 +16,7 @@ Route::get('/', function () {
 Route::get('/login', [LoginController::class, 'index'])->name('login');
 Route::get('/signup', [LoginController::class, 'signup'])->name('signup');
 Route::get('/donar', [LoginController::class, 'donar'])->name('donarview');
+Route::get('/donarprofile', [LoginController::class, 'view'])->name('donarprofile');
 
 
 
@@ -28,7 +27,6 @@ Route::get('/backend', function () {
 //     return view('');
 // })->name('backend.try');
 
-Route::get('/hi', [RoleController::class, 'try'])->name('index');
 
 
 Route::group(['prefix'=>'roles','as'=>'roles.'], function(){

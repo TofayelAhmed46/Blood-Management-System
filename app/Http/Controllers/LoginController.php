@@ -28,6 +28,11 @@ class LoginController extends Controller
 
         return view('components.frontend.layouts.donar');
     }
+    public function view()
+    {
+
+        return view('components.frontend.layouts.donarview');
+    }
 
     public function create()
     {
