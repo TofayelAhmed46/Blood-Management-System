@@ -26,9 +26,9 @@ class RoleController extends Controller
     public function store(Request $request)
     {
         $role =new Role;
-        $role ->'Roles' => $request->role_name
+        $role ->Roles = $request->role_name;
       
-        Role->save();
+        $role->save();
         return redirect()->route('roles.index');
     }
 
