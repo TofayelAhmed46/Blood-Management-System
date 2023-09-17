@@ -9,6 +9,9 @@ class LoginController extends Controller
     /**
      * Display a listing of the resource.
      */
+    public function try(){
+        return view('components.backend.layouts.try');
+    }
     public function index()
     {
         return view('components.frontend.layouts.login');
