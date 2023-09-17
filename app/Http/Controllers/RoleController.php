@@ -25,10 +25,10 @@ class RoleController extends Controller
 
     public function store(Request $request)
     {
-        // dd($request->all());
-        Role::create([
-            'role_name' => $request->role_name
-        ]);
+        $role =new Role;
+        $role ->'Roles' => $request->role_name
+      
+        Role->save();
         return redirect()->route('roles.index');
     }
 
